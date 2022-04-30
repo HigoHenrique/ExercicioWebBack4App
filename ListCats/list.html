@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade WEB</title>
+    <script src="./list.js" defer></script>
+    <link rel="stylesheet" href="./styleList.css">
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script type="text/javascript" type="text/javascript">
+      Parse.initialize("402nWOiLmv5cwcVEWevIMg1lKIHZ8zIckjI9Lbw0","n7oTqprHS0Rn0Ymskl7i9Ffdp092SPC3f9gr6npf");
+      Parse.serverURL = 'https://parseapi.back4app.com/'
+    </script>
+</script>
+</head>
+<body>
+    <header class="menu">
+        <h1>Petshop</h1>
+        <ul>
+            <li><a href="../RegisterCats/index.html">Cadastro</a></li>
+            <li><a href="./list.html">Lista</a></li>
+        </ul>
+    </header>
+    <section>
+        <h2>Gatinhos Registrados</h2>
+        <div>
+            <table>
+                <thead class="thead">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Cor</th>
+                        <th>Sexo</th>
+                        <th>Idade</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="cats" id="cats">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
